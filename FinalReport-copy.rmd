@@ -61,11 +61,22 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 This graph shows that white and other races favor capitol punishment while blacks oppose.
 
 
-
-
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+table1 <- xtabs(~RACE + CAPPUN, data=GSS)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+More than 65% of whites and other races favor capitol punishment.   
+
+More than 65% of blacks oppose capitol punishment.   
+
+it appears that there is a correlation between attitude towards capital punishment and race. 
 
 ## Inferential Results
 
