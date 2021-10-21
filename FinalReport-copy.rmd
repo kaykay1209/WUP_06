@@ -1,6 +1,6 @@
 ---
 title: "GSS challange"
-author: "kayleen hernandez!"
+author: "kayleen hernandez"
 date: "October 5, 2021"
 output: html_document
 ---
